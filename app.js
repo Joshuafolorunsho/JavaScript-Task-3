@@ -7,25 +7,20 @@ const divisible = (number) => {
       }
       
       if (i % 2 === 0) {
-        newArr.push('yu');
-         
+        newArr.push('yu');      
         if (i % 5 === 0) {
           newArr[newArr.length - 1] = 'yu-oh';
         }
         
         if (i % 3 === 0)  {
-          newArr[newArr.length - 1] = 'yu-gi';
-          
+          newArr[newArr.length - 1] = 'yu-gi';       
            if (i % 5 === 0) {
             newArr[newArr.length - 1] = 'yu-gi-oh';
           }
         }
-        
-      
       }
       
-      if (i % 2 == 0 && i % 3 === 0) {
-          
+      if (i % 2 == 0 && i % 3 === 0) {    
       } else {
         if (i % 3 === 0) {
           newArr.push('gi');
@@ -35,11 +30,9 @@ const divisible = (number) => {
         }
       }
       
-      if (i % 2 == 0 && i % 5 === 0) {
-          
+      if (i % 2 == 0 && i % 5 === 0) {    
       } else {
-        if (i % 3 == 0 && i % 5 === 0){
-          
+        if (i % 3 == 0 && i % 5 === 0){     
         } else{
           if (i % 5 === 0) {
             newArr.push('oh');
