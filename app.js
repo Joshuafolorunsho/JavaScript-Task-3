@@ -42,6 +42,7 @@ const divisible = (number) => {
    }
     return newArr;
    }
+   return 'Enter a valid number';
  }
  divisible(100);
 
