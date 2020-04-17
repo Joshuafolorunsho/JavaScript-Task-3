@@ -46,4 +46,4 @@ __Example output:__
 
 Assuming the function is called with 10 as argument, the output array would be of the form:
 
-[1,"yu","gi",4,"oh","yu-gi",7,"yu","gi","yu-oh"]
+[1,"yu","gi","yu","oh","yu-gi",7,"yu","gi","yu-oh"]
